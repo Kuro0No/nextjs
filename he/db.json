@@ -1,5 +1,49 @@
 {
-    "new": [
+    "events": [
+        {
+            "id": 1,
+            "title":"Event sports",
+            "category": "sports",
+            "description": "Description events sports 1"
+        },
+        {
+            "id": 2,
+            "title":"Event food",
+            "category": "food",
+            "description": "Description food events 2"
+        },
+        {
+            "id": 3,
+            "title":"Event games",
+            "category": "games",
+            "description": "Game Events 3"
+        },
+        {
+            "id": 4,
+            "title":"Event sports",
+            "category": "sports",
+            "description": "Description events sports 4"
+        },
+        {
+            "id": 5,
+            "title":"Event games",
+            "category": "games",
+            "description": "Description Game Events 5"
+        },
+        {
+            "id": 6,
+            "title":"Event food",
+            "category": "food",
+            "description": "Description food events 6"
+        },
+        {
+            "id": 7,
+            "title":"Event sports",
+            "category": "sports",
+            "description": "Description events sports 7"
+        }
+    ],
+    "news": [
         {
             "id": 1,
             "title": "new Artical 1",
@@ -19,7 +63,7 @@
             "category" : "sports"
         }
     ],
-    "product": [
+    "products": [
         {
             "id": 1,
             "title" : "title 1",
