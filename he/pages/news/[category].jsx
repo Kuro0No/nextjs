@@ -24,7 +24,7 @@ export default artByCategory
 
 export async function getServerSideProps(context) {
     const {params,res,req,query} = context
-    console.log(req.headers.cookie)
+    console.log(context)
     const {category} = params
     const resp = await axios.get(`http://localhost:4000/news?category=${category}`)
     const data = resp.data 

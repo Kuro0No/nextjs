@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import axios from 'axios'
 
 const CommentsList = () => {
     const [comments, setComments] = useState([])
     const [comment, setComment] = useState('')
     const current = new Date
+   
 
     const fetchComments = async () => {
         const resp = await axios.get('/api/comments')

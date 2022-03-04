@@ -8,11 +8,11 @@ const NewsArticle = (props) => {
             <h2>News   Artical</h2>
             {article.map(art => {
 
-                return <>
+                return <div key={art.id}>
                 <h2>
                     {art.id} - {art.title} - | {art.category} | 
                 </h2>
-                </>
+                </div>
             })}
         </>
     )
